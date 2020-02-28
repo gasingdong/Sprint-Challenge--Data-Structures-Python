@@ -23,7 +23,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
-# Solution 1: O(n)
+# Solution 1: O(n log n)
 # Runtime: ~0.1 seconds
 
 # bst = BinarySearchTree(names_1[0])
@@ -39,7 +39,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 # on techniques or data structures, but you may not import any additional
 # libraries that you did not write yourself.
 
-# Solution 2: O(1)
+# Solution 2: O(n)
 # Runtime: ~0.006 seconds
 duplicates = set(names_1).intersection(set(names_2))
 
