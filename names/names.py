@@ -40,8 +40,8 @@ duplicates = []  # Return the list of duplicates in this data structure
 # libraries that you did not write yourself.
 
 # Solution 2: O(n)
-# Runtime: ~0.006 seconds
-duplicates = set(names_1).intersection(set(names_2))
+# Runtime: ~0.005 seconds
+duplicates = set(names_1).intersection(names_2)
 
 end_time = time.time()
 print(f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
